@@ -5,9 +5,9 @@ on:
   # We can switch to running on push if we make this repo public or are fine with
   # paying for CI minutes.
   push:
-    branches: [ nd-fix-ci ]
+    branches: [ main ]
   pull_request:
-    branches: [ nd-fix-ci ]
+    branches: [ main ]
 
 
 jobs:
